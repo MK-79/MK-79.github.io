@@ -93,3 +93,10 @@ footer {
 footer p {
     color: #ccc;
 }
+.work-img {
+    width: 100%;       /* 横幅いっぱいに広げる */
+    height: 200px;     /* 高さを統一 */
+    object-fit: cover; /* 切り取って枠に収める */
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
